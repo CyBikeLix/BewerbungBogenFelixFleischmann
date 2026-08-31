@@ -20,7 +20,7 @@
     if (!item.filename) return;
     selectedActivityFile = item.filename;
     selectedActivityTitle = item.race;
-    selectedActivitySubtitle = `${item.duration} Peak: ${item.watts}W (${item.wkg} W/kg) • nach ${item.kj_at_start.toLocaleString('de-DE')} kJ (${item.date})`;
+    selectedActivitySubtitle = `${item.duration} Peak: ${item.watts}W (${item.wkg} W/kg) • nach ${item.kj_at_start.toLocaleString('de-DE')} kJ`;
     showActivityModal = true;
   };
 
@@ -98,7 +98,7 @@
   {/if}
 
   <section class="space-y-4">
-    <h2 class="text-xl font-bold border-b border-gray-700 pb-2">Top Ergebnisse 2026</h2>
+    <h2 class="text-xl font-bold border-b border-gray-700 pb-2">Top-Ergebnisse 2026</h2>
     <ul class="space-y-3">
       {#each data.palmares as result}
         <li 
@@ -135,17 +135,9 @@
       </p>
     {/if}
     
-    <div class="flex space-x-4 mb-2 mt-4">
-      <div class="bg-brand-surface px-4 py-3 rounded-lg flex-1 text-center border border-gray-700">
-        <div class="text-xs text-gray-400">Critical Power</div>
-        <div class="text-xl font-bold text-brand-emerald">{data.power_profile.cp > 0 ? `${data.power_profile.cp}W` : '-'}</div>
-        <div class="text-xs text-gray-400 mt-0.5">{data.power_profile.cp > 0 ? `${(data.power_profile.cp / data.profile.weight_kg).toFixed(2)} W/kg` : ''}</div>
-      </div>
-      <div class="bg-brand-surface px-4 py-3 rounded-lg flex-1 text-center border border-gray-700">
-        <div class="text-xs text-gray-400">Max Power (10s)</div>
-        <div class="text-xl font-bold text-brand-emerald">{data.power_profile.mmp_curve.find(d => d.time_seconds === 10)?.watts || '-'}W</div>
-        <div class="text-xs text-gray-400 mt-0.5">{data.power_profile.mmp_curve.find(d => d.time_seconds === 10) ? `${(data.power_profile.mmp_curve.find(d => d.time_seconds === 10).watts / data.profile.weight_kg).toFixed(1)} W/kg` : ''}</div>
-      </div>
+    <div class="bg-brand-surface px-4 py-3 rounded-lg border border-gray-700 mb-2 mt-4 flex items-center justify-between sm:justify-center sm:space-x-3 text-sm sm:text-base">
+      <span class="text-gray-300 font-semibold">Critical Power (CP):</span>
+      <span class="font-bold text-brand-emerald text-base sm:text-lg">{data.power_profile.cp} W <span class="text-gray-400 font-normal text-sm">({(data.power_profile.cp / data.profile.weight_kg).toFixed(2).replace('.', ',')} W/kg)</span></span>
     </div>
     
     <div class="bg-brand-surface rounded-xl p-4 border border-gray-700 mt-4">
@@ -171,7 +163,7 @@
               <th class="py-2.5 px-2.5 sm:px-4 font-semibold">Dauer</th>
               <th class="py-2.5 px-2 sm:px-4 font-semibold">Max Watt</th>
               <th class="py-2.5 px-2 sm:px-4 font-semibold">Vorbelastung</th>
-              <th class="py-2.5 px-2.5 sm:px-4 font-semibold">Rennen / Event</th>
+              <th class="py-2.5 px-2.5 sm:px-4 font-semibold">Rennen</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-gray-800 text-gray-300">

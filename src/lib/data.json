@@ -5,7 +5,7 @@
     "dob": "17.12.2004",
     "height_cm": 176,
     "weight_kg": 67,
-    "profession": "Informatik Student an der HU-Berlin",
+    "profession": "Informatik-Student an der HU Berlin",
     "contact": {
       "phone": "+49 152 03791858",
       "phone_raw": "+4915203791858",
@@ -18,13 +18,13 @@
   },
   "goals": {
     "title": "Fahrertyp & Perspektive",
-    "text": "Ich sehe mich als vielseitigen Allrounder. Nach verletzungsbedingten Rückschlägen in den letzten Jahren konnte ich dieses Jahr wieder voll angreifen und einen massiven Leistungssprung machen, was meine aktuelle Konstanz in der Rad-Bundesliga sowie meinen 6. Platz bei der U23-Zeitfahr-DM unterstreichen. Zudem konnte ich meine anaerobe Kapazität sowie meine 1- bis 5-Minuten-Werte deutlich steigern und fahre wieder wesentlich aktiver. Da mein Potenzial noch lange nicht ausgeschöpft ist, möchte ich mich in den kommenden Jahren auf KT-Niveau weiterentwickeln. Dabei stehe ich kompromisslos in der Helferrolle, wie beispielweise dieses Jahr in der Nationalmannschaft bei „Rund um Köln“. Darüberhinaus kann ich aber genauso in Ausreißergruppen und im Kampf gegen die Uhr verlässliche Akzente setzen."
+    "text": "Ich sehe mich als Allrounder. Nach verletzungsbedingten Rückschlägen in den letzten Jahren konnte ich dieses Jahr wieder voll angreifen und einen massiven Leistungssprung machen, was meine aktuelle Konstanz in der Rad-Bundesliga sowie meinen 6. Platz bei der U23-Zeitfahr-DM unterstreicht. Zudem konnte ich meine anaerobe Kapazität sowie meine 1- bis 5-Minuten-Werte deutlich steigern und trete im Renngeschehen wieder spürbar aktiver auf. Da mein Potenzial noch lange nicht ausgeschöpft ist, möchte ich mich in den kommenden Jahren auf KT-Niveau weiterentwickeln. Dabei stelle ich mich kompromisslos in den Dienst des Teams, wie beispielsweise dieses Jahr in der Nationalmannschaft bei Rund um Köln. Darüber hinaus kann ich aber genauso in Ausreißergruppen und im Kampf gegen die Uhr verlässliche Akzente setzen."
   },
   "palmares": [
     {
       "year": 2026,
       "result": "6. Platz",
-      "race": "U23 Zeitfahr-DM",
+      "race": "U23-Zeitfahr-DM",
       "fit_file_url": "./fits/FelixFleischmannU23ZeitfahrDM.fit",
       "filename": "2026_06_26_09_14_51.json"
     },
@@ -66,7 +66,7 @@
         "watts": 1156,
         "filename": "2026_05_24_13_36_15.json",
         "fit_file_url": "./fits/FelixFleischmannMainSpessartRundfahrt.fit",
-        "custom_context": "Main-Spessart-Rundfahrt in Karbach"
+        "custom_context": "Main-Spessart-Rundfahrt Karbach"
       },
       {
         "time_seconds": 5,
@@ -87,7 +87,7 @@
         "watts": 973,
         "filename": "2026_08_09_12_29_33.json",
         "fit_file_url": "./fits/FelixFleischmannGrosserSilberpilspreisBellheim.fit",
-        "custom_context": "Großer Silberpilspreis in Bellheim"
+        "custom_context": "Großer Silberpilspreis Bellheim"
       },
       {
         "time_seconds": 30,
@@ -108,35 +108,35 @@
         "watts": 527,
         "filename": "2026_07_21_18_20_18.json",
         "fit_file_url": "./fits/FelixFleischmannTraining21072026.fit",
-        "custom_context": "Training (21.07.2026)"
+        "custom_context": "Training VO2max (21.07.2026)"
       },
       {
         "time_seconds": 300,
         "watts": 446,
         "filename": "2026_07_05_14_59_29.json",
         "fit_file_url": "./fits/FelixFleischmannU234LaenderMeisterschaft.fit",
-        "custom_context": "U23 4 Länder Meisterschaft"
+        "custom_context": "U23-4-Länder-Meisterschaft"
       },
       {
         "time_seconds": 1200,
         "watts": 377,
         "filename": "2026_03_05_13_07_58.json",
         "fit_file_url": "./fits/FelixFleischmannTraining05032026.fit",
-        "custom_context": "Training (05.03.2026)"
+        "custom_context": "Training Schwellentest (05.03.2026)"
       },
       {
         "time_seconds": 1800,
         "watts": 361,
         "filename": "2026_05_03_14_51_17.json",
         "fit_file_url": "./fits/FelixFleischmannLVMEZF.fit",
-        "custom_context": "LVM EZF auf dem Straßenrad"
+        "custom_context": "LVM-Einzelzeitfahren (Straßenrad)"
       },
       {
         "time_seconds": 3600,
         "watts": 322,
         "filename": "2026_07_05_14_59_29.json",
         "fit_file_url": "./fits/FelixFleischmannU234LaenderMeisterschaft.fit",
-        "custom_context": "U23 4 Länder Meisterschaft"
+        "custom_context": "U23-4-Länder-Meisterschaft"
       }
     ]
   },
@@ -150,7 +150,7 @@
         "watts": 1120,
         "wkg": 16.72,
         "kj_at_start": 3459,
-        "race": "Großer Silberpilspreis in Bellheim",
+        "race": "Großer Silberpilspreis Bellheim",
         "date": "09.08.2026",
         "filename": "2026_08_09_12_29_33.json"
       },
@@ -160,7 +160,7 @@
         "watts": 1020,
         "wkg": 15.23,
         "kj_at_start": 4073,
-        "race": "Rund um Köln",
+        "race": "Rund um Köln (UCI 1.1)",
         "date": "17.05.2026",
         "filename": "2026_05_17_11_30_14.json"
       },
@@ -180,7 +180,7 @@
         "watts": 848,
         "wkg": 12.66,
         "kj_at_start": 4072,
-        "race": "Rund um Köln",
+        "race": "Rund um Köln (UCI 1.1)",
         "date": "17.05.2026",
         "filename": "2026_05_17_11_30_14.json"
       },
@@ -190,7 +190,7 @@
         "watts": 671,
         "wkg": 10.01,
         "kj_at_start": 3632,
-        "race": "Großer Silberpilspreis in Bellheim",
+        "race": "Großer Silberpilspreis Bellheim",
         "date": "09.08.2026",
         "filename": "2026_08_09_12_29_33.json"
       },

@@ -8,7 +8,7 @@
   const formatTime = (seconds) => {
     if (seconds < 60) return `${seconds}s`;
     const mins = Math.floor(seconds / 60);
-    return `${mins}m`;
+    return `${mins} min`;
   };
 
   $: chartData = {
