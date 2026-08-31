@@ -18,14 +18,14 @@
   },
   "goals": {
     "title": "Einordnung & Ziele",
-    "text": "Ich sehe mich als vielseitigen Allrounder. Nach verletzungsbedingten Rückschlägen in den letzten Jahren konnte ich dieses Jahr wieder voll angreifen und einen massiven Leistungssprung machen, was meine aktuelle Konstanz in der Rad-Bundesliga sowie mein 6. Platz bei der U23-Zeitfahr-DM unterstreichen. Zudem konnte ich meine anaerobe Kapazität sowie meine 1- bis 5-Minuten-Werte deutlich steigern und fahre wieder wesentlich aktiver. Da mein Potenzial noch lange nicht ausgeschöpft ist, möchte ich mich in den kommenden Jahren auf KT-Niveau weiterentwickeln. Dabei stehe ich kompromisslos in der Helferrolle bereit, wie in der Nationalmannschaft bei „Rund um Köln“, kann aber genauso in Ausreißergruppen und im Kampf gegen die Uhr verlässliche Akzente setzen."
+    "text": "Ich sehe mich als vielseitigen Allrounder. Nach verletzungsbedingten Rückschlägen in den letzten Jahren konnte ich dieses Jahr wieder voll angreifen und einen massiven Leistungssprung machen, was meine aktuelle Konstanz in der Rad-Bundesliga sowie meinen 6. Platz bei der U23-Zeitfahr-DM unterstreichen. Zudem konnte ich meine anaerobe Kapazität sowie meine 1- bis 5-Minuten-Werte deutlich steigern und fahre wieder wesentlich aktiver. Da mein Potenzial noch lange nicht ausgeschöpft ist, möchte ich mich in den kommenden Jahren auf KT-Niveau weiterentwickeln. Dabei stehe ich kompromisslos in der Helferrolle, wie beispielweise dieses Jahr in der Nationalmannschaft bei „Rund um Köln“. Darüberhinaus kann ich aber genauso in Ausreißergruppen und im Kampf gegen die Uhr verlässliche Akzente setzen."
   },
   "palmares": [
     {
       "year": 2026,
       "result": "6. Platz",
       "race": "U23 Zeitfahr-DM",
-      "fit_file_url": null,
+      "fit_file_url": "./fits/FelixFleischmannU23ZeitfahrDM.fit",
       "filename": "2026_06_26_09_14_51.json"
     },
     {
@@ -38,21 +38,21 @@
       "year": 2026,
       "result": "4. Platz",
       "race": "Main-Spessart-Rundfahrt",
-      "fit_file_url": null,
+      "fit_file_url": "./fits/FelixFleischmannMainSpessartRundfahrt.fit",
       "filename": "2026_05_24_13_36_15.json"
     },
     {
       "year": 2026,
       "result": "8. Platz",
       "race": "Großer Preis der Stadt Trier",
-      "fit_file_url": null,
+      "fit_file_url": "./fits/FelixFleischmannGrosserPreisDerStadtTrier.fit",
       "filename": "2026_04_26_13_22_57.json"
     },
     {
       "year": 2026,
       "result": "84. Platz",
       "race": "Rund um Köln (UCI 1.1)",
-      "fit_file_url": null,
+      "fit_file_url": "./fits/FelixFleischmannRundUmKoeln.fit",
       "filename": "2026_05_17_11_30_14.json"
     }
   ],
@@ -65,77 +65,77 @@
         "time_seconds": 1,
         "watts": 1156,
         "filename": "2026_05_24_13_36_15.json",
-        "fit_file_url": "./fits/2026-05-24-13-36-15_2026_05_24_13_36_15.fit",
+        "fit_file_url": "./fits/FelixFleischmannMainSpessartRundfahrt.fit",
         "custom_context": "Main-Spessart-Rundfahrt in Karbach"
       },
       {
         "time_seconds": 5,
         "watts": 1055,
         "filename": "2026_05_09_17_11_50.json",
-        "fit_file_url": "./fits/2026-05-09-11-15-27_2026_05_09_11_15_27.fit",
+        "fit_file_url": "./fits/FelixFleischmannVorbelastungErzgebirgsrundfahrt.fit",
         "custom_context": "Vorbelastung Erzgebirgsrundfahrt"
       },
       {
         "time_seconds": 10,
         "watts": 1002,
         "filename": "2026_05_09_17_11_50.json",
-        "fit_file_url": "./fits/2026-05-09-11-15-27_2026_05_09_11_15_27.fit",
+        "fit_file_url": "./fits/FelixFleischmannVorbelastungErzgebirgsrundfahrt.fit",
         "custom_context": "Vorbelastung Erzgebirgsrundfahrt"
       },
       {
         "time_seconds": 15,
         "watts": 973,
         "filename": "2026_08_09_12_29_33.json",
-        "fit_file_url": "./fits/2026-08-09-12-29-33_2026_08_09_12_29_33.fit",
+        "fit_file_url": "./fits/FelixFleischmannGrosserSilberpilspreisBellheim.fit",
         "custom_context": "Großer Silberpilspreis in Bellheim"
       },
       {
         "time_seconds": 30,
         "watts": 820,
         "filename": "2026_08_01_17_11_17.json",
-        "fit_file_url": "./fits/2026-08-01-17-11-17_2026_08_01_17_11_17.fit",
+        "fit_file_url": "./fits/FelixFleischmannTraining01082026.fit",
         "custom_context": "Training (01.08.2026)"
       },
       {
         "time_seconds": 60,
         "watts": 594,
         "filename": "2026_05_17_11_30_14.json",
-        "fit_file_url": "./fits/2026_05_17__11_30_Rennrad_2026_05_17_11_30_14.fit",
+        "fit_file_url": "./fits/FelixFleischmannRundUmKoeln.fit",
         "custom_context": "Rund um Köln"
       },
       {
         "time_seconds": 120,
         "watts": 527,
         "filename": "2026_07_21_18_20_18.json",
-        "fit_file_url": "./fits/2026-07-21-18-20-18_2026_07_21_18_20_18.fit",
+        "fit_file_url": "./fits/FelixFleischmannTraining21072026.fit",
         "custom_context": "Training (21.07.2026)"
       },
       {
         "time_seconds": 300,
         "watts": 446,
         "filename": "2026_07_05_14_59_29.json",
-        "fit_file_url": "./fits/2026_07_05__14_59_Rennrad_2026_07_05_14_59_29.fit",
+        "fit_file_url": "./fits/FelixFleischmannU234LaenderMeisterschaft.fit",
         "custom_context": "U23 4 Länder Meisterschaft"
       },
       {
         "time_seconds": 1200,
         "watts": 377,
         "filename": "2026_03_05_13_07_58.json",
-        "fit_file_url": "./fits/475862208648085804_2026_03_05_13_07_58.fit",
+        "fit_file_url": "./fits/FelixFleischmannTraining05032026.fit",
         "custom_context": "Training (05.03.2026)"
       },
       {
         "time_seconds": 1800,
         "watts": 361,
         "filename": "2026_05_03_14_51_17.json",
-        "fit_file_url": null,
+        "fit_file_url": "./fits/FelixFleischmannLVMEZF.fit",
         "custom_context": "LVM EZF auf dem Straßenrad"
       },
       {
         "time_seconds": 3600,
         "watts": 322,
         "filename": "2026_07_05_14_59_29.json",
-        "fit_file_url": "./fits/2026_07_05__14_59_Rennrad_2026_07_05_14_59_29.fit",
+        "fit_file_url": "./fits/FelixFleischmannU234LaenderMeisterschaft.fit",
         "custom_context": "U23 4 Länder Meisterschaft"
       }
     ]
