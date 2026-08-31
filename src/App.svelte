@@ -221,7 +221,8 @@
 
   {#if showPhotoLightbox}
     <div 
-      class="fixed inset-0 bg-black/85 backdrop-blur-md flex items-center justify-center z-50 p-4"
+      class="fixed inset-0 w-screen h-screen min-h-[100dvh] bg-black/95 backdrop-blur-xl flex items-center justify-center z-50 p-4 select-none"
+      style="top: 0; left: 0; right: 0; bottom: 0; margin: 0;"
       on:click={() => showPhotoLightbox = false}
       on:keydown={(e) => e.key === 'Escape' && (showPhotoLightbox = false)}
       role="dialog"
@@ -230,7 +231,7 @@
       tabindex="-1"
     >
       <div class="relative" on:click|stopPropagation on:keydown={() => {}} role="presentation">
-        <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full border-4 border-brand-emerald overflow-hidden shadow-2xl shadow-emerald-950/60 bg-brand-surface">
+        <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full border-4 border-brand-emerald overflow-hidden shadow-2xl shadow-emerald-950/80 bg-brand-surface">
           <img 
             src={data.profile.photo_url_large} 
             alt={data.profile.name}
