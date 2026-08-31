@@ -58,7 +58,7 @@
   ],
   "power_profile": {
     "pitch_text": "",
-    "cp": 350,
+    "cp": 360,
     "w_prime": 23400,
     "mmp_curve": [
       {
@@ -126,7 +126,7 @@
       },
       {
         "time_seconds": 1800,
-        "watts": 361,
+        "watts": 369,
         "filename": "2026_05_03_14_51_17.json",
         "fit_file_url": "./fits/FelixFleischmannLVMEZF.fit",
         "custom_context": "LVM-Einzelzeitfahren (Straßenrad)"
