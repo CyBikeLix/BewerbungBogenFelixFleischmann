@@ -221,8 +221,8 @@
 
   {#if showPhotoLightbox}
     <div 
-      class="fixed inset-0 w-screen h-screen min-h-[100dvh] bg-black/95 backdrop-blur-xl flex items-center justify-center z-50 p-4 select-none"
-      style="top: 0; left: 0; right: 0; bottom: 0; margin: 0;"
+      class="fixed inset-0 w-screen h-screen min-h-[100dvh] bg-[#070e20]/80 backdrop-blur-[3px] flex items-center justify-center z-50 p-4 select-none"
+      style="top: 0; left: 0; right: 0; bottom: 0; margin: 0; background-color: rgba(7, 14, 32, 0.82);"
       on:click={() => showPhotoLightbox = false}
       on:keydown={(e) => e.key === 'Escape' && (showPhotoLightbox = false)}
       role="dialog"
@@ -230,7 +230,7 @@
       aria-label="Profilbild Großansicht"
       tabindex="-1"
     >
-      <div class="relative" on:click|stopPropagation on:keydown={() => {}} role="presentation">
+      <div class="relative flex flex-col items-center" on:click|stopPropagation on:keydown={() => {}} role="presentation">
         <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full border-4 border-brand-emerald overflow-hidden shadow-2xl shadow-emerald-950/80 bg-brand-surface">
           <img 
             src={data.profile.photo_url_large} 
@@ -239,6 +239,9 @@
             style="object-position: center;"
           />
         </div>
+        <p class="mt-4 text-white/50 text-base sm:text-lg font-semibold tracking-wider select-none text-center">
+          {data.profile.name}
+        </p>
         <button 
           on:click={() => showPhotoLightbox = false}
           class="absolute top-1 right-1 sm:top-2 sm:right-2 bg-brand-surface border border-brand-emerald/60 text-gray-200 hover:text-white w-10 h-10 rounded-full flex items-center justify-center text-2xl hover:bg-brand-emerald hover:text-brand-dark transition-all shadow-xl"
