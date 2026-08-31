@@ -31,7 +31,7 @@
     {
       "year": 2026,
       "result": "5. Platz (Gesamtwertung)",
-      "race": "Bundesliga inkl. Amateurtrikot (aktueller Stand, 2 Rennen ausstehend)",
+      "race": "Bundesliga inkl. Amateurtrikot (aktueller Stand: 2 Rennen ausstehend)",
       "fit_file_url": null
     },
     {
@@ -51,7 +51,7 @@
     {
       "year": 2026,
       "result": "84. Platz",
-      "race": "Rund um Köln (UCI 1.1)",
+      "race": "Rund um Köln",
       "fit_file_url": "./fits/FelixFleischmannRundUmKoeln.fit",
       "filename": "2026_05_17_11_30_14.json"
     }
@@ -160,7 +160,7 @@
         "watts": 1020,
         "wkg": 15.23,
         "kj_at_start": 4073,
-        "race": "Rund um Köln (UCI 1.1)",
+        "race": "Rund um Köln",
         "date": "17.05.2026",
         "filename": "2026_05_17_11_30_14.json"
       },
@@ -180,7 +180,7 @@
         "watts": 848,
         "wkg": 12.66,
         "kj_at_start": 4072,
-        "race": "Rund um Köln (UCI 1.1)",
+        "race": "Rund um Köln",
         "date": "17.05.2026",
         "filename": "2026_05_17_11_30_14.json"
       },
