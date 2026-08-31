@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && (cd dist && git init && git checkout -B gh-pages && git add -A && git commit -m 'Deploy static build' && git remote add origin git@github.com:CyBikeLix/BewerbungBogenFelixFleischmann.git && git push origin gh-pages --force && rm -rf .git)"
+    "deploy": "vite build && (cd dist && git init && git checkout -B gh-pages && git add -A && git commit -m 'Deploy static build' && git remote add origin git@github.com:CyBikeLix/felix-fleischmann.git && git push origin gh-pages --force && rm -rf .git)"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
