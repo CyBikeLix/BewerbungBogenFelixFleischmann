@@ -221,7 +221,7 @@
 
   {#if showPhotoLightbox}
     <div 
-      class="fixed inset-0 bg-black/95 backdrop-blur-md flex flex-col items-center justify-center z-50 p-4 sm:p-6" 
+      class="fixed inset-0 bg-black/85 backdrop-blur-md flex items-center justify-center z-50 p-4"
       on:click={() => showPhotoLightbox = false}
       on:keydown={(e) => e.key === 'Escape' && (showPhotoLightbox = false)}
       role="dialog"
@@ -229,16 +229,8 @@
       aria-label="Profilbild Großansicht"
       tabindex="-1"
     >
-      <div class="relative flex flex-col items-center max-w-sm sm:max-w-md w-full" on:click|stopPropagation on:keydown={() => {}} role="presentation">
-        <button 
-          on:click={() => showPhotoLightbox = false}
-          class="absolute -top-3 -right-2 sm:-top-2 sm:-right-4 bg-brand-surface border border-gray-600 text-gray-300 hover:text-white w-9 h-9 rounded-full flex items-center justify-center text-xl hover:bg-white/10 transition-colors shadow-lg z-10"
-          aria-label="Schließen"
-        >
-          &times;
-        </button>
-
-        <div class="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full border-4 border-brand-emerald shadow-2xl shadow-emerald-500/25 overflow-hidden bg-brand-surface flex items-center justify-center">
+      <div class="relative" on:click|stopPropagation on:keydown={() => {}} role="presentation">
+        <div class="w-72 h-72 sm:w-96 sm:h-96 rounded-full border-4 border-brand-emerald overflow-hidden shadow-2xl shadow-emerald-950/60 bg-brand-surface">
           <img 
             src={data.profile.photo_url_large} 
             alt={data.profile.name}
@@ -246,10 +238,13 @@
             style="object-position: center;"
           />
         </div>
-
-        <div class="mt-4 text-center">
-          <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">{data.profile.name}</h3>
-        </div>
+        <button 
+          on:click={() => showPhotoLightbox = false}
+          class="absolute top-1 right-1 sm:top-2 sm:right-2 bg-brand-surface border border-brand-emerald/60 text-gray-200 hover:text-white w-10 h-10 rounded-full flex items-center justify-center text-2xl hover:bg-brand-emerald hover:text-brand-dark transition-all shadow-xl"
+          aria-label="Schließen"
+        >
+          &times;
+        </button>
       </div>
     </div>
   {/if}
