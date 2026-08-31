@@ -1,6 +1,6 @@
 # Felix Fleischmann – Radsport-Profil & Bewerbungsbogen
 
-Interaktives Fahrerprofil & Bewerbungsbogen für den U23 Straßenradsport mit Leistungsdaten (Power Profile, MMP-Kurve, Ermüdungsresistenz / Durability), Palmarès und interaktiver Strecken- und Leistungsanalyse (.FIT & GPS-Visualisierung mit Leaflet und Chart.js).
+Interaktives Fahrerprofil & Bewerbungsbogen für den U23 Straßenradsport mit Leistungsdaten (Power Profile, Durability), Palmarès und interaktiver Strecken- und Leistungsanalyse (.FIT & GPS-Visualisierung mit Leaflet und Chart.js).
 
 ## 🚀 Live Demo & Hosting
 
