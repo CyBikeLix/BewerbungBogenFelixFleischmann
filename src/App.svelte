@@ -36,7 +36,7 @@
 
 <main class="max-w-xl mx-auto min-h-screen bg-brand-dark text-white p-4 sm:p-6 space-y-12 pb-24 font-sans leading-relaxed">
   
-  <section class="space-y-6 pt-4 border-b border-gray-700 pb-8">
+  <section class="space-y-6 pt-4 pb-2">
     <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
       <button 
         on:click={() => showPhotoLightbox = true}
